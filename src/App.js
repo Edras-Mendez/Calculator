@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import freeCodeCamp_logo from './imgs/Logo.png';
 import Button from './components/button.jsx';
 import Display from './components/Display.jsx';
 import ClearButton from './components/clearButton.jsx';
@@ -26,10 +25,7 @@ function App() {
   return (
     <div className="App">
       <div className="logo__container">
-        <img 
-          className='freeCodeCamp'
-          src={freeCodeCamp_logo} 
-          alt="Logo" />
+        <h2>Calculator</h2>
       </div>
       <div className="main__container">
         <Display input={input}/>

@@ -7,7 +7,8 @@
 }
 
 html, body {
-  background-color: rgb(10,10,34);
+  /*background-color: rgb(10,10,34);*/
+  background-color: #ccc;
 }
 
 .App {
@@ -22,23 +23,25 @@ html, body {
 }
 
 .logo__container {
+  position: absolute;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px;
+  background-color: green;
 }
 
-.freeCodeCamp {
-  height: 38px;
+.logo__container h2 {
+  color: #fff;
 }
 
 .main__container {
-  background-color: lightblue;
+  background-color: #525252;
   width: 400px;
   height: 600px;
   padding: 14px;
-  border: 5px solid white;
+  border: 5px solid rgb(10,10,34);;
   border-radius: 15px;
 }
 
